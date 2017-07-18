@@ -1,0 +1,31 @@
+.box123 {
+	text-align: center;
+}
+
+.red,
+.green,
+.black {
+	width: 25px;
+	height: 25px;
+}
+
+.red {
+	background: red;
+}	
+
+.green {
+	background: green;
+}
+
+.black {
+	background: black;
+}
+
+.center {
+	text-align: center;
+	padding: 10px;
+}
+
+.list {
+	color: white;
+}
