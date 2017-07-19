@@ -1,0 +1,17 @@
+.click {
+	text-align: center;
+}
+
+.three {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.div{
+  width: 100px;
+  height: 100px;
+  background: black;
+  margin-right: 7px;
+}
