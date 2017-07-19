@@ -1,0 +1,19 @@
+.box {
+	margin: auto;
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	background: black;
+}
+
+p {
+	color: white;
+	margin: auto;
+}
+
+.red {
+	width: 200px;
+	height: 200px;
+	border:10px solid red;
+	background: gray; 
+}
