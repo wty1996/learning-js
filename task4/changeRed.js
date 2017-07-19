@@ -1,9 +1,10 @@
-var click2 =document.querySelector('.click2')
+var aaa =document.querySelector('.click2')
 var div =document.querySelectorAll('.div')
 function changeRed() {
+	console.log(1)
 	for (var i = 0; i < div.length; i++) {
 		div[i].style.background = 'red'
 	}
 }	
 
-click2.addEventListener('click', changeRed, false)
+aaa.addEventListener('click', changeRed, false)

@@ -1,0 +1,30 @@
+.button {
+	text-align: center;
+}
+
+.quary {
+	background: gray;
+	width: 25px;
+	height: 25px;
+}
+
+.appear {
+	width: 250px;
+	height: 60px;
+	background: yellow;
+	border: 1px solid orange;
+	margin: auto;
+	visibility: hidden;
+	padding: 15px;
+
+}
+
+.change {
+	width: 250px;
+	height: 60px;
+	background: yellow;
+	border: 1px solid orange;
+	margin: auto;
+	padding: 15px;
+	visibility: visible;
+}
