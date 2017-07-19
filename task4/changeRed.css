@@ -1,12 +1,12 @@
 .click {
-	text-align: center;
+  text-align: center;
 }
 
 .three {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .div{
