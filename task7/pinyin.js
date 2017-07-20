@@ -1,19 +1,10 @@
 var button = document.querySelector('.input')
 var choose = document.querySelector('.choose')
 function hidden() {
-  choose.className = "choose"
-}
-
-button.addEventListener('click', hidden, false)
-
-function appear() {
+	if(choose.className === "choose") {
   choose.className += " appear"
+  } else {
+	choose.className = "choose"
+  }
 }
-
-button.addEventListener('click', appear, false)
-
-function repeat() {
-  choose.className += " chooseAgain"
-}
-
-button.addEventListener('click', repeat, false)
+button.addEventListener('click', hidden, false)
