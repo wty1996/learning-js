@@ -1,0 +1,46 @@
+.button {
+  text-align: center;
+}
+
+.choose {
+  text-align: center;
+  margin: 10px;
+  visibility: hidden;
+}
+
+.appear {
+  text-align: center;
+  margin: 10px;
+  visibility: visible;
+}
+
+.chooseAgain {
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.writehand {
+  height: 50px;
+  width: 70px;
+  border:1px solid blue;
+  margin: auto;
+}
+
+.pinyin {
+  height: 50px;
+  width: 70px;
+  border:1px solid blue;
+  margin: auto;
+}
+
+.close {
+  height: 50px;
+  width: 70px;
+  border:1px solid blue;
+  margin: auto;
+}
+
+p {
+  color: blue;
+}
