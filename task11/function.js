@@ -8,8 +8,9 @@ function first() {
 	var textTwo = document.querySelector('.textTwo').value
 	box.style[textOne] = textTwo
 }
-ok.addEventListener('click',first, false)
+ok.addEventListener('click', first, false)
+
 function second() {
 	box.style = 'reset'
 }
-res.addEventListener('click',second, false)
+res.addEventListener('click', second, false)

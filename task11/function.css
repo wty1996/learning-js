@@ -1,22 +1,25 @@
-.button, .total {
-	text-align: center;
+.button,
+.total {
+  text-align: center;
 }
 
-.textOne, .textTwo, {
-	margin: auto;
+.textOne,
+.textTwo, {
+  margin: auto;
 }
 
 .box {
-	height: 300px;
-	width: 300px;
-	background: black;
-	margin: 15px auto;
+  height: 300px;
+  width: 300px;
+  background: black;
+  margin: 15px auto;
 }
 
 .color {
-	color: white;
+  color: white;
 }
 
-.button, .two {
-	margin: 15px;
+.button,
+.two {
+  margin: 15px;
 }
