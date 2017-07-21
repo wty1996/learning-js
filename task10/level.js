@@ -1,6 +1,7 @@
-var button =document.querySelector('.out')
-var two =document.querySelector('.two')
-var close =document.querySelector('.close')
+var button = document.querySelector('.out')
+var two = document.querySelector('.two')
+var close = document.querySelector('.close')
+
 function warning() {
 	if(two.className === "two") {
   two.className += " change"
@@ -8,7 +9,9 @@ function warning() {
 	two.className = "two"
   }
 } 
+
 button.addEventListener('click', warning, false)
+
 function hidden() {
   two.className = "two"
 }

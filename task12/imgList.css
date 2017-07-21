@@ -2,7 +2,6 @@ body {
 	margin: 10px auto;
 	border: .5px solid gray;
 	width: 700px;
-
 }
 
 .list1, .list2 {
@@ -18,82 +17,10 @@ li {
   opacity: 50%;
 }
 
-
+.one {
+	opacity:0.3;
+}
 
 .changeOne {
-	opacity :0.3;
+	opacity :1;
 }
-
-.two {
-	opacity:1;
-}
-
-.changeTwo {
-	opacity :0.3;
-}
-
-.three {
-	opacity:1;
-}
-
-.changeThree {
-	opacity :0.3;
-}
-
-.four {
-	opacity:1;
-}
-
-.changeFour {
-	opacity :0.1;
-}
-
-.five {
-	opacity:1;
-}
-
-.changeFive {
-	opacity :0.3;
-}
-
-.six {
-	opacity:1;
-}
-
-.changeSix {
-	opacity :0.3;
-}
-
-.seven {
-	opacity:1;
-}
-
-.changeSeven {
-	opacity :0.3;
-}
-
-.eight{
-	opacity:1;
-}
-
-.changeEight {
-	opacity :0.3;
-}
-
-.nine {
-	opacity:1;
-}
-
-.changeNine {
-	opacity :0.3;
-}
-
-.ten {
-	opacity:1;
-}
-
-.changeTen {
-	opacity :0.3;
-}
-
-
