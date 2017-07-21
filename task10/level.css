@@ -1,0 +1,27 @@
+.one {
+	text-align: center;
+}
+
+.two {
+	text-align: right;
+	visibility: hidden;
+}
+.change {
+	text-align: right;
+	visibility: visible;
+	margin-top: 260px;
+	margin-left: 500px;
+}
+
+.box1 {
+	width: 400px;
+	height: 31px;
+	background: yellow;
+	
+}
+
+.box2 {
+	width: 400px;
+	height: 170px;
+	background: pink;
+}	

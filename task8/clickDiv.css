@@ -1,4 +1,4 @@
-.paraOne {
+.para {
   width: 500px;
   height: 78px;
   border: 1px solid gray;
@@ -6,26 +6,3 @@
   margin: 15px auto;
 }
 
-.paraTwo {
-  width: 500px;
-  height: 78px;
-  border: 1px solid gray;
-  font-size: 12px;
-  margin: 15px auto;
-}
-
-.paraThree {
-  width: 500px;
-  height: 78px;
-  border: 1px solid gray;
-  font-size: 12px;
-  margin: 15px auto;
-}
-
-.paraFour {
-  width: 500px;
-  height: 78px;
-  border: 1px solid gray;
-  font-size: 12px;
-  margin: 15px auto;
-}

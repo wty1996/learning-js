@@ -6,6 +6,8 @@
   text-align: center;
   margin: 10px;
   visibility: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .appear {
@@ -14,17 +16,12 @@
   visibility: visible;
 }
 
-.chooseAgain {
-  text-align: center;
-  margin: 10px;
-  
-}
-
 .writehand {
   height: 50px;
   width: 70px;
   border: 1px solid blue;
   margin: auto;
+  background: white;
 }
 
 .pinyin {
@@ -32,6 +29,7 @@
   width: 70px;
   border: 1px solid blue;
   margin: auto;
+  background: white;
 }
 
 .close {
@@ -39,6 +37,7 @@
   width: 70px;
   border: 1px solid blue;
   margin: auto;
+  background: white;
 }
 
 p {
