@@ -1,40 +1,40 @@
 .menu,
 .content {
-	margin: auto;
-	border: 0.5px solid black;
+  margin: auto;
+  border: .5px solid black;
 }
 
 .menu {
-	height: 35px;
-	width: 400px;
-	background: black;
+  height: 35px;
+  width: 400px;
+  background: black;
 }
 
 .content {
-	width: 400px;
-	height: auto;
+  width: 400px;
+  height: auto;
 }
 
 .one,
 .two,
 .three {
-	height: 35px;
-	background:black;
-	color: #fff;
-	border: none;
+  height: 35px;
+  background: black;
+  color: #fff;
+  border: none;
 }
 
 .se,
 .th {
-	display: none;
+  display: none;
 }
 
 body {
-	font-size: 13px;
-	padding: 5px;
+  font-size: 13px;
+  padding: 5px;
 }
 
 .changeOne {
-	background: #ccc;
+  background: #ccc;
   color: #000;
 }
