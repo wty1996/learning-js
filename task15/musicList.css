@@ -1,0 +1,41 @@
+.row {
+  width: 200px;
+  background: #57646e;
+  margin: auto;
+  cursor: pointer;
+}
+
+.singList {
+  font-size: 13px;
+  width: 200px;
+  height: 180px;
+  background: #eaeaea;
+  margin: auto;
+  cursor: pointer;
+}
+
+.down {
+  margin-left: 100px;
+  height: 16px;
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  height: 30px;
+  background: #57646e;
+  cursor: pointer;
+}
+
+.disappeare {
+  visibility: hidden;
+}
+
+.fi:hover {
+  background: white;
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.menu,
+.content {
+  margin: auto;
+  border: 1px solid black;
+}
+
+.menu {
+  height: 35px;
+  width: 400px;
+  background: black;
+}
+
+.content {
+  width: 400px;
+  height: auto;
+}
+
+.one,
+.two,
+.three {
+  height: 35px;
+  background: black;
+  color: #fff;
+  border: none;
+}
+
+.se,
+.th {
+  display: none;
+}
+
+body {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.changeOne {
+  background: #ccc;
+  color: #000;
+}
