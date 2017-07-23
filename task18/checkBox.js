@@ -19,5 +19,5 @@ function change2() {
 	choose.className = choose.className === 'choose' ? `${choose.className} no` : 'choose'
 }
 
-all.addEventListener('click', change, false)
+all.addEventListener('change', change, false)
 dif.addEventListener('click', change2, false)
