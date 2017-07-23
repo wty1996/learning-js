@@ -1,0 +1,27 @@
+.list {
+	background: #eaeaea;
+	height: 331px;
+	width: 132px;
+	font-size: 13px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.font {
+	text-align: center;
+	margin: 10px;
+}
+
+.dif {
+	margin: auto;
+	color: blue;
+	cursor: pointer;
+}
+
+.choose {
+	visibility: hidden;
+}
+
+.no {
+	visibility: visible;
+}

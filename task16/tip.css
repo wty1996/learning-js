@@ -1,0 +1,38 @@
+.outBorder {
+	width: 800px;
+	height: 450px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.title {
+	text-align: center;
+	 font-weight: bold;
+}
+
+.row1,
+.row2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 10px;
+}
+
+li {
+	width: 130px;
+	height: 130px;
+	border: 1px solid black;
+	background: #eaeaea;
+  margin: 5px;
+  list-style: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+p {
+	font-weight: normal;
+}
+
+.one {
+	display: none;
+}
