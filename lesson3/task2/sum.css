@@ -1,0 +1,15 @@
+.function {
+  text-align: center;
+}
+
+.one,
+.two {
+  background: #eaeaea;
+  border: 1px solid gray;
+  width: 58px;
+  height: 20px;
+}
+
+.out {
+  background: white;
+}
