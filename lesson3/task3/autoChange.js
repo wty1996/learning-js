@@ -1,4 +1,4 @@
-let button = document.querySelector('.button')
+const button = document.querySelector('.button')
 let i = 0
 
 function warning() {

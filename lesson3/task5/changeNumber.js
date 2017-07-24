@@ -1,4 +1,4 @@
-let changeNumber = document.querySelector('.changeNumber')
+const changeNumber = document.querySelector('.changeNumber')
 let i = 0
 
 function change() {
