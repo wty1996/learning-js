@@ -1,0 +1,92 @@
+.outer {
+  margin: auto;
+  width: 300px;
+  height: 500px;
+}
+
+.title {
+  width: 300px;
+  height: 20px;
+  background: black;
+}
+
+.from {
+  color: white;
+  font-size: 13px;
+  text-align: right;
+  float: right;
+  margin-right: 10px;
+}
+
+.in {
+  width: 300px;
+  height: 20px;
+  background: yellow;
+  text-align: top;
+  font-size: 12px;
+}
+
+.screen {
+  background: yellow;
+  width: 300px;
+  height: 64px;
+  text-align: right;
+}
+
+.number {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+
+.keyboard {
+  width: 300px;
+  height: 315px;
+  background: #999;
+}
+
+button {
+  width: 63px;
+  height: 41px;
+  background: black;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+span {
+  color: white;
+  font-size: 25px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  display: flex;
+  flex-direction: row;
+  padding: 11px;
+}
+
+.orange {
+  height: 104px;
+  background: orange;
+  position: absolute;
+  margin-left: 209px;
+}
+
+.big {
+  width: 136px;
+}
+
+.row4,
+.row5 {
+  width: 210px;
+}
+
+.dif {
+  background: #585858;
+}

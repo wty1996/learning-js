@@ -1,0 +1,25 @@
+.body {
+	margin: auto;
+	background: black;
+	width: 300px;
+	height: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.hour,
+.min,
+.miao {
+	width: 40px;
+	height: 26px;
+	background: white;
+	border: 2px solid #4a4a4a;
+	margin: 9px;
+}
+
+span {
+	color: white;
+}
