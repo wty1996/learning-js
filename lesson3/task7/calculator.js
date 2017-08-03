@@ -4,24 +4,18 @@ var sym = document.querySelectorAll('.sym')
 var equ = document.querySelectorAll('.equ')
 var screen = document.querySelector('.screen').innerText
 
-
+var a
 function appear() {
 	for (var i = 0; i < num.length; i++) {
-		a = Number(num[i])
+		 Number(num[i]) = a
 	}
 	screen = a
 	num.addEventListener('click', appear, false)
 
 
-	if (screen === a) {
-		screen = a
-	} else {
-		screen = b
-	}
-
-
 }
 
+var b
 function count() {
 	for (var i = 0; i < sym.length; i++) {
 		b = Number(sym[i])
@@ -30,6 +24,7 @@ function count() {
 	sym.addEventListener('click', count, false)
 }
 
+var c
 function eq() {
 	c = Number(equ[i])
 	screen = c

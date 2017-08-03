@@ -1,7 +1,10 @@
-const hour = document.querySelectorAll('.hour').innerText
-const min = document.querySelectorAll('.min').innerText
-const miao = document.querySelectorAll('.miao').innerText
-var time = new Date()
-hour =  today.getHours()
-min = today.getMinutes()
-miao = today.getSeconds()
+let hour = document.querySelector('.hour')
+let min = document.querySelector('.min')
+let second = document.querySelector('.second')
+
+setInterval(function() {
+	var time = new Date()
+	hour.innerText = time.getHours()
+	min.innerText = time.getMinutes()
+	second.innerText = time.getSeconds()
+}, 1000)
