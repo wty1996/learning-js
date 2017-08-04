@@ -1,9 +1,9 @@
-let min = document.querySelector('.min')
-let second = document.querySelector('.second')
-let start = document.querySelector('.start')
-let appear = document.querySelector('.appear')
-let hidden = document.querySelector('.hidden')
-
+const min = document.querySelector('.min')
+const second = document.querySelector('.second')
+const start = document.querySelector('.start')
+const appear = document.querySelector('.appear')
+const hidden = document.querySelector('.hidden')
+const end = document.querySelector('.end')
 
 function change() {
 	if (start.className === 'start') {
@@ -19,12 +19,20 @@ function change() {
 	}
 }
 
-
-setInterval(function() {
+setInterval(function stop() {
 	second.innerText -= 1
 	if (second.innerText <= 0) {
 		min.innerText = 00
 		second.innerText = 00
 	}
 }, 1000)
+clearInterval(function stop() {
+	second.innerText -= 1
+	if (second.innerText <= 0) {
+		min.innerText = 00
+		second.innerText = 00
+	}
+}, 1000)
+
 start.addEventListener('click', change, false)
+end.addEventListener('click', stop, false)
