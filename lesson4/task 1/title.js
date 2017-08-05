@@ -12,6 +12,8 @@ function hidden() {
 
 two.addEventListener('mouseover', down, false)
 two.addEventListener('mouseout', hidden, false)
+li2.addEventListener('mouseout', hidden, false)
+li2.addEventListener('mouseout', hidden, false)
 
 const three = document.querySelector('.three')
 const li3 = document.querySelector('.li3')

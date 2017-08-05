@@ -11,28 +11,26 @@ function change() {
 		start.style.background = 'green'
 		appear.style.visibility = 'visible'
 		hidden.style.visibility = 'hidden'
+		clearInterval(function() {
+			second.innerText -= 0
+			if (second.innerText <= 0) {
+				min.innerText = 00
+				second.innerText = 00
+			}
+		})
 	} else {
 		start.className = 'start'
 		start.style.background = 'red'
 		appear.style.visibility = 'hidden'
 		hidden.style.visibility = 'visible'
 	}
+	setInterval(function() {
+		second.innerText -= 1
+		if (second.innerText <= 0) {
+			min.innerText = 00
+			second.innerText = 00
+		}
+	}, 1000)
 }
 
-setInterval(function stop() {
-	second.innerText -= 1
-	if (second.innerText <= 0) {
-		min.innerText = 00
-		second.innerText = 00
-	}
-}, 1000)
-clearInterval(function stop() {
-	second.innerText -= 1
-	if (second.innerText <= 0) {
-		min.innerText = 00
-		second.innerText = 00
-	}
-}, 1000)
-
 start.addEventListener('click', change, false)
-end.addEventListener('click', stop, false)

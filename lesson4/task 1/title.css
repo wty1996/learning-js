@@ -32,4 +32,36 @@ button {
   border: 1px solid blue;
   height: 28px;
   visibility: hidden;
+  position: fixed;
 }
+
+.li2 {
+  margin-left: 30%;
+}
+
+.li3 {
+  margin-left: 35%;
+}
+
+.li4 {
+  margin-left: 40%;
+}
+
+.li5 {
+  margin-left: 45%;
+}
+
+.li6 {
+  margin-left: 50%;
+}
+
+.li7 {
+  margin-left: 55%;
+}
+
+.li8 {
+  margin-left: 57%;
+}
+
+
+
