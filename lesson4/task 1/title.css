@@ -1,0 +1,67 @@
+.list {
+  background: pink;
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  width: 600px;
+  height: 40px;
+  list-style: none;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+  height: 40px;
+  margin: auto;
+  color: white;
+  font-size: 15px;
+  background: pink;
+}
+
+.li2,
+.li3,
+.li4,
+.li5,
+.li6,
+.li7,
+.li8 {
+  background: #eaeaea;
+  color: black;
+  font-size: 13px;
+  border: 1px solid blue;
+  height: 28px;
+  visibility: hidden;
+  position: fixed;
+}
+
+.li2 {
+  margin-left: 30%;
+}
+
+.li3 {
+  margin-left: 35%;
+}
+
+.li4 {
+  margin-left: 40%;
+}
+
+.li5 {
+  margin-left: 45%;
+}
+
+.li6 {
+  margin-left: 50%;
+}
+
+.li7 {
+  margin-left: 55%;
+}
+
+.li8 {
+  margin-left: 57%;
+}
+
+
+

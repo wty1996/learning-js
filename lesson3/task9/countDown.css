@@ -1,0 +1,43 @@
+.body {
+  margin: auto;
+  background: black;
+  width: 300px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.min,
+.second {
+  width: 40px;
+  height: 26px;
+  background: white;
+  border: 2px solid #4a4a4a;
+  margin: 9px;
+}
+
+.start {
+  background: green;
+  text-align: center;
+  width: 280px;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.end {
+  background: green red;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+span {
+  color: white;
+}
